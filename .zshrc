@@ -42,7 +42,7 @@ _load_settings "$HOME/.zsh/configs"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
-export QT_STYLE_OVERRIDE=gtk2
+export QT_STYLE_OVERRIDE=Adwaita-Dark
 
 set_path(){
 
