@@ -1,1 +1,12 @@
+general {
+	output_format = "i3bar"
+	colors = true
+	interval = 5
+}
+
+order += "time"
+
+time {
+    format = "%b %d at %H:%M"
+}
 
