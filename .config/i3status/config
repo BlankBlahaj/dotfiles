@@ -7,6 +7,6 @@ general {
 order += "time"
 
 time {
-    format = "%b %d at %H:%M"
+    format = "%d/%m %H:%M"
 }
 
