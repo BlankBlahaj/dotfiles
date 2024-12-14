@@ -131,3 +131,7 @@ set_path(){
 }
 
 set_path ~/.local/bin
+
+xrdb ~/.Xresources
+
+QT_STYLE_OVERRIDE=adwaita-qt
