@@ -1,0 +1,12 @@
+Rxvt.scrollBar:false
+
+URxvt*background: black
+URxvt*foreground: white
+
+URxvt.keysym.Shift-Control-V: eval:paste_clipboard
+URxvt.keysym.Shift-Control-C: eval:selection_to_clipboard
+
+URxvt.perl-ext-common: default,-confirm-paste
+
+URxvt.iso14755: false
+URxvt.iso14755_52: false
