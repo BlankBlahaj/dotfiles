@@ -14,12 +14,12 @@ set $down j
 set $up k
 set $right l
 # Your preferred terminal emulator
-set $term rxvt-unicode
+set $term foot
 # Your preferred application launcher
 # Note: pass the final command to swaymsg so that the resulting window can be opened
 # on the original workspace that the command was run on.
 #set $menu dmenu_path | dmenu | xargs swaymsg exec --
-set $menu i3-dmenu-desktop --dmenu="dmenu -nb '#000000'" 
+set $menu dmenu_path | wmenu | xargs swaymsg exec --
 
 include /etc/sway/config-vars.d/*
 
